@@ -1,0 +1,38 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+body{background-color: #b1c2d2;}
+
+.JIP-contenedor{
+    padding:0.01em 16px;
+}
+
+
+.JIP-margin{margin:16px!important}
+.JIP-margin-bottom{margin-bottom:16px!important}
+.JIP-margin-left{margin-left:16px!important}
+.JIP-margin-right{margin-right:16px!important}
+.JIP-margin-top{margin-top:16px!important}
+
+.JIP-row-pading{
+    padding: 0 10px;
+}
+.JIP-unTercio {
+    float: left;
+    width: 33%;
+}
+@media (min-width:601px){
+    
+    .JIP-dosTercios{float: left; width: 66% }
+}
+
+.JIP-display-perfil{
+    position:relative;
+}
+
+.JIP-display-bottomleft{
+    position:absolute;left:0;bottom:0;
+}
+
+.JIP-tiny{font-size:10px!important}
+.JIP-small{font-size:12px!important}
+.JIP-medium{font-size:15px!important}
+.JIP-large{font-size:18px!important}
