@@ -12,9 +12,9 @@
 </head>
 <body class="body-class">
  <!--Contenedor de la pagina CV-->
-    <div class="JIP-contenedor JIP-margin-top" style="max-width: 1400px;">
+<div class="JIP-contenedor JIP-margin-top Float-solution" style="max-width: 1400px">
     <!--Grid-->
-    <div class="JIP-row-pading contenedor">
+    <div class="JIP-row-pading contenedor Float-solution">
         <!--Columna Izquierda-->
         <div class="JIP-unTercio"> 
             <div class="JIP-carta-uno JIP-sombra-box">
@@ -68,14 +68,14 @@
                 <div class="JIP-contenedor JIP-margin-bottom JIP-sombra-box2 JIP-carta-uno" >
                     <h2><i class="fa fa-suitcase fa-fw JIP-margin-right"></i>Work Experience</h2>
                     <div class="JIP-contenedor">
-                        <h5><b>Front End Developer / w3schools.com</b></h5>
-                        <h6><i class="fa fa-calendar fa-fw JIP-margin-right"></i>Jan 2015 - <span>Current</span></h6>
+                        <h4><b>Front End Developer / w3schools.com</b></h4>
+                        <h5><i class="fa fa-calendar fa-fw JIP-margin-right"></i>Jan 2015 - <span>Current</span></h5>
                         <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
                         <hr>
                       </div>
                       <div class="JIP-contenedor">
-                        <h5><b>Web Developer / something.com</b></h5>
-                        <h6><i class="fa fa-calendar fa-fw JIP-margin-right"></i>Mar 2012 - Dec 2014</h6>
+                        <h4><b>Web Developer / something.com</b></h4>
+                        <h5><i class="fa fa-calendar fa-fw JIP-margin-right"></i>Mar 2012 - Dec 2014</h5>
                         <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
                         <hr>
                       </div>          
@@ -85,44 +85,63 @@
                 <div class="JIP-contenedor JIP-sombra-box2 JIP-carta-uno">
                     <h2><i class="fa fa-certificate fa-fw JIP-margin-right"></i>Educación</h2>
                         <div class="JIP-contenedor">
-                            <h5><b>Graphic Designer / designsomething.com</b></h5>
-                            <h6><i class="fa fa-calendar fa-fw JIP-margin-right"></i>Jun 2010 - Mar 2012</h6>
+                            <h4><b>Graphic Designer / designsomething.com</b></h4>
+                            <h5><i class="fa fa-calendar fa-fw JIP-margin-right"></i>Jun 2010 - Mar 2012</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
                         </div>    
                         <div class="JIP-contenedor">
-                            <h5><b>W3Schools.com</b></h5>
-                            <h6><i class="fa fa-calendar fa-fw JIP-margin-right"></i>Forever</h6>
+                            <h4><b>W3Schools.com</b></h4>
+                            <h5><i class="fa fa-calendar fa-fw JIP-margin-right"></i>Forever</h5>
                             <p>Web Development! All I need to know in one place</p>
                             <hr>
                         </div>
                         <div class="JIP-contenedor">
-                            <h5><b>London Business School</b></h5>
-                            <h6><i class="fa fa-calendar fa-fw JIP-margin-right"></i>2013 - 2015</h6>
+                            <h4><b>London Business School</b></h4>
+                            <h5><i class="fa fa-calendar fa-fw JIP-margin-right"></i>2013 - 2015</h5>
                             <p>Master Degree</p>
                             <hr>
                         </div>
                         <div class="JIP-contenedor">
-                            <h5><b>School of Coding</b></h5>
-                            <h6><i class="fa fa-calendar fa-fw JIP-margin-right"></i>2010 - 2013</h6>
+                            <h4><b>School of Coding</b></h4>
+                            <h5><i class="fa fa-calendar fa-fw JIP-margin-right"></i>2010 - 2013</h5>
                             <p>Bachelor Degree</p><br>
                         </div>
                 </div>
         <!--Fin de la columna derecha-->
         </div>
     <!--Fin del Grid-->
-    </div>    
-    <!--Fin del Contenedor de la pagina-->
     </div>
-    
-   <footer class="JIP-contenedor JIP-margin-top">
-        <p>Find me on social media.</p>
-            <i class="fa fa-facebook-official"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-snapchat"></i>
-            <i class="fa fa-pinterest-p"></i>
-            <i class="fa fa-twitter"></i>
-            <a href="www.linkedin.com/in/juan-ignacio-pighin"><i class="fa fa-linkedin"></i></a>
-            <p>Powered by JuanIgnacioPighin</p>
-   </footer>
+</div> 
+
+<div class="JIP-formulario JIP-margin-top" >
+    <form onsubmit="enviarMail(); reset(); return false;">
+        <h2>Dejame un mensaje</h2>
+            <input type="text" id="name" placeholder="Nombre y Apellido" required>
+            <input type="email" id="email" placeholder="Correo Electronico" required>
+            <input type="text" id="telefono" placeholder="Telefono" required>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="4" placeholder="Escribe tu mensaje"></textarea>
+            <button type="submit">Enviar</button>
+    </form>
+</div>
+     
+    <!--Fin del Contenedor de la pagina-->
+
+
+<footer class="JIP-contenedor JIP-margin">
+    <div class=JIP-pieDePagina>
+         <p>Encontrame en las redes sociales.</p>
+         <div>
+             <i class="fa fa-facebook-official"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-snapchat"></i>
+             <i class="fa fa-pinterest-p"></i>
+             <i class="fa fa-twitter"></i>
+             <a href="www.linkedin.com/in/juan-ignacio-pighin"><i class="fa fa-linkedin"></i></a>
+            </div>
+        <p>Powered by JuanIgnacioPighin</p>
+    </div>
+</footer>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="funciones.js"></script>
 </body>
 </html>
