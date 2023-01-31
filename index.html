@@ -19,9 +19,9 @@
         <div class="JIP-unTercio"> 
             <div class="JIP-carta-uno JIP-sombra-box">
                 <div class="JIP-display-perfil">
-                    <img src="profile.jpeg" style="width:100%" alt="FotoPerfil">
+                    <img class="JIP-hidden JIP-delay-300" src="profile.jpeg" style="width:100%" alt="FotoPerfil">
                     <div class="JIP-display-bottomleft JIP-contenedor">
-                    <h1>Juan Ignacio Pighin</h1>
+                    <h1 class="JIP-hidden JIP-delay-500">Juan Ignacio Pighin</h1>
                     </div>
                 </div>
                 <div class="JIP-contenedor">
@@ -31,7 +31,7 @@
                     <p><i class="fa fa-phone fa-fw JIP-margin-right"></i>+54 342 6397265</p>
                     <hr>
                     
-                    <p class="JIP-large"><b><i class="fa fa-asterisk fa-fw JIP-margin-right"></i>Habilidades</b></p>
+                    <p class="JIP-large JIP-hidden JIP-delay-500"><b><i class="fa fa-asterisk fa-fw JIP-margin-right"></i>Habilidades</b></p>
                     <p>JavaScript</p>
                     <p>HTML y CSS</p>
                     <p>C++</p>
@@ -41,7 +41,7 @@
                 
                     <br>
                     
-                    <p class="JIP-large"><b><i class="fa fa-globe fa-fw JIP-margin-right"></i>Lenguajes</b></p>
+                    <p class="JIP-large JIP-hidden JIP-delay-500"><b><i class="fa fa-globe fa-fw JIP-margin-right"></i>Lenguajes</b></p>
                     <p>Español</p>
                     <p>Ingles</p>
                     <p>Aleman</p>
@@ -66,7 +66,7 @@
         <!--Columna Derecha-->
         <div class="JIP-dosTercios">
                 <div class="JIP-contenedor JIP-margin-bottom JIP-sombra-box2 JIP-carta-uno" >
-                    <h2><i class="fa fa-suitcase fa-fw JIP-margin-right"></i>Work Experience</h2>
+                    <h2 class="JIP-hidden JIP-delay-700"><i class="fa fa-suitcase fa-fw JIP-margin-right"></i>Work Experience</h2>
                     <div class="JIP-contenedor">
                         <h4><b>Front End Developer / w3schools.com</b></h4>
                         <h5><i class="fa fa-calendar fa-fw JIP-margin-right"></i>Jan 2015 - <span>Current</span></h5>
@@ -83,7 +83,7 @@
                 </div>
                 
                 <div class="JIP-contenedor JIP-sombra-box2 JIP-carta-uno">
-                    <h2><i class="fa fa-certificate fa-fw JIP-margin-right"></i>Educación</h2>
+                    <h2 class="JIP-hidden JIP-delay-700"><i class="fa fa-certificate fa-fw JIP-margin-right"></i>Educación</h2>
                         <div class="JIP-contenedor">
                             <h4><b>Graphic Designer / designsomething.com</b></h4>
                             <h5><i class="fa fa-calendar fa-fw JIP-margin-right"></i>Jun 2010 - Mar 2012</h5>
@@ -106,7 +106,7 @@
                             <h5><i class="fa fa-calendar fa-fw JIP-margin-right"></i>2010 - 2013</h5>
                             <p>Bachelor Degree</p><br>
                         </div>
-                </div>
+                </div> 
         <!--Fin de la columna derecha-->
         </div>
     <!--Fin del Grid-->
@@ -114,7 +114,7 @@
 </div> 
 
 <div class="JIP-formulario JIP-margin-top" >
-    <form onsubmit="enviarMail(); reset(); return false;">
+    <form class="JIP-hidden" onsubmit="enviarMail(); reset(); return false;">
         <h2>Dejame un mensaje</h2>
             <input type="text" id="name" placeholder="Nombre y Apellido" required>
             <input type="email" id="email" placeholder="Correo Electronico" required>

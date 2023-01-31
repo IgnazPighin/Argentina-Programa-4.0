@@ -12,3 +12,17 @@ function enviarMail(){
       message => alert("Mensaje Enviado")
     );
 }
+
+const observer = new IntersectionObserver((entries) =>{
+  entries.forEach((entry) => { 
+    console.log(entry)
+    if(entry.isIntersecting){
+      entry.target.classList.add('JIP-show');
+      }
+      else {
+        entry.target.classList.remove('JIP-show');
+      }
+    });
+});
+const hiddenElements = document.querySelectorAll('.JIP-hidden');
+hiddenElements.forEach((el) => observer.observe(el));

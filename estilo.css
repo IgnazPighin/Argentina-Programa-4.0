@@ -141,4 +141,26 @@ form button{
 
         }
     
-   
+   .JIP-hidden{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+        transition: all 1s;
+   }
+   .JIP-show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+   }
+   .JIP-delay-300{
+    transition-delay: 300ms;
+   }
+   .JIP-delay-400{
+    transition-delay: 400ms;
+   }
+   .JIP-delay-500{
+    transition-delay: 500ms;
+   }
+   .JIP-delay-700{
+    transition-delay: 700ms;
+   }
